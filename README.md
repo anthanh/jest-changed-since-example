@@ -4,6 +4,7 @@ Jest incremental test example project.
 
 ## Dependency map
 
+```
 root
 ├── a1
 ├── a2
@@ -17,3 +18,4 @@ root
 │   ├── d2 // with barrel import
 │   └── d3 // with barrel import
 └── b3
+```
