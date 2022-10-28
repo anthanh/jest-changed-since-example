@@ -1,0 +1,30 @@
+{
+  "name": "jest-changed-since-example",
+  "version": "0.0.1",
+  "description": "Jest incremental test example",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthanh/jest-changed-since-example.git"
+  },
+  "keywords": [
+    "jest",
+    "test",
+    "changedsince",
+    "incremental"
+  ],
+  "author": "Anthanh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthanh/jest-changed-since-example/issues"
+  },
+  "homepage": "https://github.com/anthanh/jest-changed-since-example#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^29.2.2"
+  }
+}
