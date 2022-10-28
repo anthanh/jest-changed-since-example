@@ -1,3 +1,3 @@
 export function root() {
-  return 'root'
+  return "root";
 }
