@@ -4,7 +4,8 @@
   "description": "Jest incremental test example",
   "main": "index.js",
   "scripts": {
-    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest"
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "test:changed": "npm test -- --changedSince main"
   },
   "type": "module",
   "repository": {
