@@ -1,4 +1,4 @@
-import { b2 } from "../";
+import { b2 } from "../b";
 
 export function d3() {
   b2();
