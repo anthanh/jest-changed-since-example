@@ -7,6 +7,9 @@ Jest incremental test example project.
 ```
 root
 ├── a1
+│   ├── d1 // with barrel import
+│   ├── d2 // with barrel import
+│   └── d3 // with barrel import
 ├── a2
 ├── a3
 ├── b1
@@ -14,8 +17,5 @@ root
 │   ├── c2
 │   └── c3
 ├── b2
-│   ├── d1 // with barrel import
-│   ├── d2 // with barrel import
-│   └── d3 // with barrel import
 └── b3
 ```
